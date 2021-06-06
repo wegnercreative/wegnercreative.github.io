@@ -2,7 +2,7 @@ body,html{width:100%;height:100%}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 a{color:#e31327;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s}
 a:focus,a:hover{color:#e31327}
-hr{max-width:100px;margin:25px auto 0;border-width:1px;border-color:rgba(34,34,34,.1)}
+hr{max-width:100px;margin:25px auto 0;border-width:10px;border-color:rgba(34,34,34,.1)}
 hr.light{border-color:#fff}
 h1,h2,h3,h4,h5,h6{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:200;letter-spacing:1px}
 p{font-size:1.6rem;font-weight:200;margin-bottom:20px}
@@ -63,7 +63,7 @@ section.features .feature-item{padding-top:50px;padding-bottom:50px;text-align:c
 section.features .feature-item h3{font-size:30px}
 
 
-section.info{background:#b21f2a;padding:20px 0;font-size:14px;color:#fff}
+section.info{background:#652d90;padding:20px 0;font-size:14px;color:#fff}
 section.info .info-item{margin:1rem auto}
 section.info .info-num{font-size:1rem;color:#fff}
 @media screen and (min-width:320px) {section.info .info-num{font-size:2rem}}
