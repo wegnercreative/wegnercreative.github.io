@@ -1,7 +1,7 @@
 body,html{width:100%;height:100%}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-a{color:#e31327;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s}
-a:focus,a:hover{color:#e31327}
+a{color:#219acd;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s}
+a:focus,a:hover{color:#219acd}
 hr{max-width:100px;margin:25px auto 0;border-width:10px;border-color:rgba(34,34,34,.1)}
 hr.light{border-color:#fff}
 h1,h2,h3,h4,h5,h6{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:200;letter-spacing:1px}
@@ -13,13 +13,13 @@ section{padding:7.5rem 0}
 
 #mainNav{border-color:rgba(34,34,34,.05);background-color:#fff;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:200;border-bottom:1px solid rgba(34,34,34,.15)}
 #mainNav .navbar-brand{color:#212529;font-weight:700}
-#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#e31327}
+#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#db256b}
 #mainNav .navbar-toggler{font-size:12px;padding:8px 10px;color:#212529}
-#mainNav .navbar-nav>li>a{font-size:1rem;font-weight:400;padding-left:1.5rem;padding-right:1.5rem}
-#mainNav .navbar-nav>li>a.active{color:#e31327!important;background-color:transparent}
-#mainNav .navbar-nav>li>a.active:hover{background-color:transparent}
+#mainNav .navbar-nav>li>a{font-size:1rem;font-weight:500;padding-left:1.5rem;padding-right:1.5rem}
+#mainNav .navbar-nav>li>a.active{color:#db256b!important;background-color:transparent;font-weight:500}
+#mainNav .navbar-nav>li>a.active:hover{background-color:transparent;font-weight:500}
 #mainNav .navbar-nav>li>a,#mainNav .navbar-nav>li>a:focus{color:#212529}
-#mainNav .navbar-nav>li>a:focus:hover,#mainNav .navbar-nav>li>a:hover{color:#e31327}
+#mainNav .navbar-nav>li>a:focus:hover,#mainNav .navbar-nav>li>a:hover{color:#db256b}
 @media (min-width:992px){#mainNav{background-color:transparent}
 #mainNav .navbar-brand{color:fade(white,70%)}
 #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#212529}
@@ -27,14 +27,14 @@ section{padding:7.5rem 0}
 #mainNav .navbar-nav>li>a:focus:hover,#mainNav .navbar-nav>li>a:hover{color:#212529}
 #mainNav.navbar-shrink{border-color:rgba(34,34,34,.1);background-color:#fff}
 #mainNav.navbar-shrink .navbar-brand{color:#212529}
-#mainNav.navbar-shrink .navbar-brand:focus,#mainNav.navbar-shrink .navbar-brand:hover{color:#e31327}
+#mainNav.navbar-shrink .navbar-brand:focus,#mainNav.navbar-shrink .navbar-brand:hover{color:#db256b}
 #mainNav.navbar-shrink .navbar-nav>li>a,#mainNav.navbar-shrink .navbar-nav>li>a:focus{color:#212529}
-#mainNav.navbar-shrink .navbar-nav>li>a:focus:hover,#mainNav.navbar-shrink .navbar-nav>li>a:hover{color:#e31327}}
+#mainNav.navbar-shrink .navbar-nav>li>a:focus:hover,#mainNav.navbar-shrink .navbar-nav>li>a:hover{color:#db256b}}
 
 
 header.masthead{position:relative;width:100%;padding-top:150px;padding-bottom:100px;color:#111;background:#fff}
-header.masthead .header-content{margin-bottom:100px;text-align:center;padding-top:6rem}
-header.masthead .header-content h1{font-weight:700;color:#b21f2a}
+header.masthead .header-content{margin-bottom:100px;text-align:center;padding-top:4rem !important}
+header.masthead .header-content h1{font-weight:700;color:#219acd}
 @media screen and (min-width: 320px) {header.masthead .header-content h1 {font-size:3.2rem}}  
 @media screen and (min-width: 768px) {header.masthead .header-content h1 {font-size:4.5rem}}  
 @media screen and (min-width:320px) and (max-width:991px) {header.masthead .container {margin-bottom:6.5rem}}  /* add padding underneath hero image */
@@ -63,7 +63,7 @@ section.features .feature-item{padding-top:50px;padding-bottom:50px;text-align:c
 section.features .feature-item h3{font-size:30px}
 
 
-section.info{background:#652d90;padding:20px 0;font-size:14px;color:#fff}
+section.info{background:#219acd;padding:20px 0;font-size:14px;color:#fff}
 section.info .info-item{margin:1rem auto}
 section.info .info-num{font-size:1rem;color:#fff}
 @media screen and (min-width:320px) {section.info .info-num{font-size:2rem}}
@@ -117,6 +117,7 @@ section.about .device-container{margin-bottom:100px}
 section.about .about-description p{font-size:14px;font-weight:200}
 section.about .about-item{padding-top:50px;padding-bottom:50px;text-align:center}
 section.about .about-item h3{font-size:30px}
+section.about p{padding-top:1.3rem;}
 
 
 footer{padding:7.5rem 0;text-align:center;color:#fff;background-color:#222}
@@ -136,7 +137,7 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
 .mh-disclaimer{font-size:0.8rem;margin:0;padding-top:7rem}
 .mh-cutoff{border-bottom:1px solid #dcdcdc}
 .mh-caption{padding-top:0.3rem;line-height:1.3rem;font-size:0.9rem}
-.mh-button{background-color:#b21f2a;border-radius:28px;border:1px solid #b21f2a;display:inline-block;cursor:pointer;color:#fff;font-family:Arial;font-size:1.4rem;padding:16px 33px;text-decoration:none}
-.mh-button:hover{background-color:#d21729;color:#fff}
+.mh-button{background-color:#9e4fbc;border-radius:28px;border:1px solid #9e4fbc;display:inline-block;cursor:pointer;color:#fff;font-family:Arial;font-size:1.4rem;padding:16px 33px;text-decoration:none}
+.mh-button:hover{background-color:#7f3f97;color:#fff}
 .mh-button:active{position:relative;top:1px;color:#fff}
 .mh-button:visited{color:#fff}
