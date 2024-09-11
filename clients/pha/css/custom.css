@@ -79,9 +79,9 @@ section.info .info-num{font-size:1rem;color:#fff}
 
 
 section.download{background:#3b82ad;color:#fff}
-section.download{padding: 3.5rem 0}
-section.download .section-heading h2{font-size:3.7rem !important;color:#fff;margin-top:0}
-@media screen and (min-width:320px) and (max-width:570px) {section.download .section-heading h2{font-size:3rem !important;margin-top:0}}
+section.download{padding-top:3.5rem; padding-bottom:2.8rem;}
+section.download .section-heading h2{font-size:3.7rem !important;color:#fff;  line-height:3.8rem; margin-top:0; margin-bottom:2.0rem;}
+@media screen and (min-width:320px) and (max-width:570px) {section.download .section-heading h2{font-size:3rem !important;margin-top:0;}}
 @media (min-width:992px) {section.download .section-heading h2{font-size:2.5rem}}
 section.download .section-heading h3{font-size:1.7rem;font-weight:500;line-height:2.5rem}
 section.download .section-heading p{font-size:1.6rem;color:#fff;font-weight:200}
@@ -94,7 +94,7 @@ section.download .download-item{padding-top:50px;padding-bottom:50px;text-align:
 section.download .download-item h3{font-size:30px}
 
 
-section.instructions{background:#fff}
+section.instructions{background:#f7f7f7; padding-bottom:2.5rem;}
 section.instructions a {color:#fb8706;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s}
 section.instructions h2{font-size:3.7rem !important; margin-top:0}
 @media (min-width:992px) {section.instructions .section-heading h2{font-size:2.5rem}}
@@ -110,7 +110,23 @@ section.instructions h5{padding-top:0.3rem;line-height:1.3rem;font-size:0.9rem}
 section.instructions h3{font-weight:400;padding-top:1rem;}
 
 
-section.about{background:#f7f7f7}
+section.contacts {background:#fff; margin-bottom:-1.2rem;}
+section.contacts a {color:#fb8706;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s}
+section.contacts h2{font-size:3.7rem !important; margin-top:0}
+@media (min-width:992px) {section.contacts .section-heading h2{font-size:2.5rem}}
+section.contacts .section-heading h3{font-size:1.7rem;font-weight:500;line-height:2.5rem}
+section.contacts .section-heading p{color:#666;margin-bottom:0}
+section.contacts .section-heading ul li{font-size:1.6rem;font-weight:200;line-height:2.5rem}
+section.contacts .device-container,section.contacts .contacts-item{max-width:325px;margin:0 auto}
+@media (min-width:992px) {section.contacts .device-container{margin-bottom:0}}
+section.contacts .contacts-description p{margin-bottom:2rem;font-size:2rem;font-weight:200}
+section.contacts .contacts-item{padding-top:50px;padding-bottom:50px;text-align:center}
+section.contacts .contacts-item h3{font-size:30px }
+section.contacts h5{padding-top:0.3rem;line-height:1.3rem;font-size:0.9rem}
+section.contacts h3{font-weight:400;padding-top:1rem;}
+
+
+section.about{background:#f7f7f7;}
 section.about .section-heading h2{font-size:3.7rem !important;margin-top:0}
 @media screen and (min-width:320px) and (max-width:570px) {section.about .section-heading h2{font-size:3rem !important;margin-top:0}}
 @media (min-width:992px) {section.about .section-heading h2{font-size:2.5rem}}
@@ -127,7 +143,7 @@ section.about .about-item{padding-top:50px;padding-bottom:50px;text-align:center
 section.about .about-item h3{font-size:30px}
 
 
-footer{padding:7.5rem 0;text-align:center;color:#fff;background-color:#3b82ad}
+footer{padding:7.5rem 0;text-align:center;color:#fff;background-color:#666666}
 footer p{font-size:1rem;color:#fff;margin:0}
 footer a,footer a:active,footer a:focus,footer a:hover{color:#fff;text-decoration:none}
 footer ul {margin-bottom:0}
@@ -139,6 +155,7 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
 .pha-feature{max-width:100%}
 .pha-feature img{max-height:600px}
 .pha-headline{font-weight:700;font-size:2rem;padding: 2rem 1rem 0 0;margin-bottom:0}
+.pha-title {font-weight:700;font-size:2rem;}
 @media screen and (min-width:768px) {.pha-headline{font-size: 2.5rem}}
 @media screen and (min-width:992px) {.pha-headline{font-size: 3.5rem}}
 .pha-inline-badge{border:0;width:18px;height:18px;margin:0;margin-top:-.2em !important}
@@ -158,10 +175,6 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
 .pha-qr-code-xy {margin-top:-0.7rem; max-height:223px}
 .pha-apple-share-icon {max-height:20px; margin-top:-0.3em}
 .pha-android-menu-icon {max-height:30px; margin:-0.1em -.25em 0 -.25em}
-
-
-
-
 
 
 
