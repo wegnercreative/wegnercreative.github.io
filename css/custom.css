@@ -1,7 +1,7 @@
 body,html{width:100%;height:100%}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 a{color:#219acd;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s}
-a:focus,a:hover{color:#219acd}
+a:focus,a:hover{color:#fff}
 hr{max-width:100px;margin:25px auto 0;border-width:10px;border-color:rgba(34,34,34,.1)}
 hr.light{border-color:#fff}
 h1,h2,h3,h4,h5,h6{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:200;letter-spacing:1px}
@@ -14,13 +14,13 @@ section{padding:7.5rem 0}
 
 #mainNav{border-color:rgba(34,34,34,.05);background-color:#fff;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:200;border-bottom:1px solid rgba(34,34,34,.15)}
 #mainNav .navbar-brand{color:#212529;font-weight:700}
-#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#db256b}
+#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#9e4fbc}
 #mainNav .navbar-toggler{font-size:12px;padding:8px 10px;color:#212529}
 #mainNav .navbar-nav>li>a{font-size:1rem;font-weight:500;padding-left:1.5rem;padding-right:1.5rem}
-#mainNav .navbar-nav>li>a.active{color:#db256b!important;background-color:transparent;font-weight:500}
+#mainNav .navbar-nav>li>a.active{color:#9e4fbc!important;background-color:transparent;font-weight:500}
 #mainNav .navbar-nav>li>a.active:hover{background-color:transparent;font-weight:500}
 #mainNav .navbar-nav>li>a,#mainNav .navbar-nav>li>a:focus{color:#212529}
-#mainNav .navbar-nav>li>a:focus:hover,#mainNav .navbar-nav>li>a:hover{color:#db256b}
+#mainNav .navbar-nav>li>a:focus:hover,#mainNav .navbar-nav>li>a:hover{color:#9e4fbc}
 @media (min-width:992px){#mainNav{background-color:transparent}
 #mainNav .navbar-brand{color:fade(white,70%)}
 #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#212529}
@@ -28,9 +28,9 @@ section{padding:7.5rem 0}
 #mainNav .navbar-nav>li>a:focus:hover,#mainNav .navbar-nav>li>a:hover{color:#212529}
 #mainNav.navbar-shrink{border-color:rgba(34,34,34,.1);background-color:#fff}
 #mainNav.navbar-shrink .navbar-brand{color:#212529}
-#mainNav.navbar-shrink .navbar-brand:focus,#mainNav.navbar-shrink .navbar-brand:hover{color:#db256b}
+#mainNav.navbar-shrink .navbar-brand:focus,#mainNav.navbar-shrink .navbar-brand:hover{color:#9e4fbc}
 #mainNav.navbar-shrink .navbar-nav>li>a,#mainNav.navbar-shrink .navbar-nav>li>a:focus{color:#212529}
-#mainNav.navbar-shrink .navbar-nav>li>a:focus:hover,#mainNav.navbar-shrink .navbar-nav>li>a:hover{color:#db256b}}
+#mainNav.navbar-shrink .navbar-nav>li>a:focus:hover,#mainNav.navbar-shrink .navbar-nav>li>a:hover{color:#9e4fbc}}
 
 
 header.masthead{position:relative;width:100%;padding-top:150px;padding-bottom:100px;color:#111;background:#fff}
@@ -118,10 +118,10 @@ section.about .device-container{margin-bottom:100px}
 section.about .about-description p{font-size:14px;font-weight:200}
 section.about .about-item{padding-top:50px;padding-bottom:50px;text-align:center}
 section.about .about-item h3{font-size:30px}
-section.about p{padding-top:1.3rem;}
+section.about p{padding-top:2.3rem;}
 
 
-footer{padding:7.5rem 0;text-align:center;color:#fff;background-color:#222}
+footer{padding:7.5rem 0;text-align:center;color:#fff;background-color:#666666;}
 footer p{font-size:1rem;margin:0}
 footer ul {margin-bottom:0}
 footer ul li a{font-size:16px;color:#fff}
@@ -131,10 +131,10 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
 .no-gutter>[class*=col-]{padding-right:0;padding-left:0}
 .mh-feature{max-width:100%}
 .mh-feature img{max-height:600px}
-.mh-headline{font-weight:700;font-size:2rem;padding: 0.5rem 1rem 0rem 0rem;margin-bottom:0rem}
+.mh-headline{font-weight:700;font-size:2rem;padding: 0.5rem 1rem 0 0;margin-bottom:0}
 @media screen and (min-width:768px) {.mh-headline{font-size: 2.5rem}}
 @media screen and (min-width:992px) {.mh-headline{font-size: 3.5rem}}
-.mh-inline-badge{border:0px;width:18px;height:18px;margin:0px;margin-top:-.2em !important}
+.mh-inline-badge{border:0;width:18px;height:18px;margin:0;margin-top:-0.2em !important}
 .mh-disclaimer{font-size:0.8rem;margin:0;padding-top:7rem}
 .mh-cutoff{border-bottom:1px solid #dcdcdc}
 .mh-caption{padding-top:0.3rem;line-height:1.3rem;font-size:0.9rem}
@@ -142,3 +142,4 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
 .mh-button:hover{background-color:#7f3f97;color:#fff}
 .mh-button:active{position:relative;top:1px;color:#fff}
 .mh-button:visited{color:#fff}
+
